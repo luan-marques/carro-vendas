@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gemunu Libre', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    background: linear-gradient(180deg, rgb(70, 70, 70), black);
+    height: 40vh;
+    /* background-image: url(./img//black-metallic-grid-macro-black-metal-background-metal-textures-grunge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding: 3rem 3rem;
+    box-shadow: 0 15px 30px black;
+    display: flex;
+}
+
+header h3 {
+    padding: 0.5rem 1rem 0 3rem;
+    margin-left: -3rem;
+    font-size: 2rem;
+    font-style: italic;
+    border-top: rgba(255, 255, 255, 0.568) 1px solid;
+    font-weight: 100;
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+    color: rgb(249, 249, 249);
+}
+
+label,
+p {
+    color: rgb(246, 246, 246);
+}
+
+input {
+    border: none;
+    background-color:  rgb(56, 56, 56);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 15px 0;
+}
+
+input [type="text"],
+input [type="number"],
+input [type="date"],
+input [type="file"],
+textarea {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+.form-container {
+    background-color: rgb(56, 56, 56);
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -130px;
+    border-radius: 0.25rem;
+}
+
+.form-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.286);
+    height: 45px;
+}
+
+.form-header p {
+    color:  white;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-body {
+    padding: 30px;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.form-title {
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: red;
+}
+
+.box-input {
+    padding-bottom: 30px;
+}
+
+.block {
+    display: block;
+    width: 500px;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-box li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.box-input {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: gray;
+    color: white;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    color: gray;
+    border-color: gray;
+    background-color: white;
+    
+}
+
+footer {
+    background: linear-gradient(360deg, rgb(169, 169, 169), black);
+    height: 50vh;
+    box-shadow: 50px 0 50px black;
+    margin-top: -300px;
+}
+
+
